@@ -57,10 +57,7 @@ function draw() {
 	girl.velocityX=0;
 	girl.velocityY=-2;
   } 
-  if(girl.isTouching(obstaclearray())){
-	girl.setVelocityX=0;
-	girl.setVelocityY=0;
-  }
+
   spawnObstacles();
   drawSprites();
   text(mouseX+","+mouseY,mouseX,mouseY);
